@@ -4,7 +4,7 @@ from pathlib import Path
 
 # Read the contents of README.md for the long description
 this_directory = Path(__file__).parent
-long_description = (this_directory / "README.md").read_text()
+long_description = (this_directory / "README.md").read_text(encoding="utf-8")
 
 setup(
     name="fits_metadata_extractor",  # Replace with your desired package name
@@ -14,13 +14,13 @@ setup(
     description="A Python library for processing FITS metadata and searching points/areas in the fits.",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="",  # Github URL 
+    url="https://github.com/Bhat-Junaid/fits_extractor.git",  # Github URL
     packages=find_packages(),
     install_requires=[
         "numpy>=1.19.0",
         "requests>=2.25.0",
         "astropy>=4.2",
-        "mocpy>=1.2.0",
+        "mocpy>=0.17.0",
         "pandas>=1.1.0",
         "shapely>=1.7.0",
         "matplotlib>=3.3.0"
@@ -32,8 +32,7 @@ setup(
     ],
     python_requires='>=3.6',
     keywords="FITS metadata polygon astronomy",
-    project_urls={  # Optional
-        "Bug Reports": "https://github.com/yourusername/fits_polygon_tools/issues",
-        "Source": "https://github.com/yourusername/fits_polygon_tools",
+    project_urls={
+        "Source": "https://github.com/Bhat-Junaid/fits_extractor.git",
     },
 )
