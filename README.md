@@ -86,7 +86,7 @@ pip install -r requirements.txt
 
 ### Fits Metadata Extractor (`fits_metadata_ex`)
 
-The **Fits Metadata Extractor** is a powerful Python module designed for working with FITS (Flexible Image Transport System) files. It focuses on extracting, homogenizing, and managing metadata from FITS files while providing tools for spatial analysis and advanced data handling.
+The **Fits Metadata Extractor** is a Python module designed for working with FITS (Flexible Image Transport System) files. It focuses on extracting, homogenizing, and managing metadata from FITS files while providing tools for spatial analysis and advanced data handling.
 
 ---
 
