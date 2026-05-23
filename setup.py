@@ -7,14 +7,14 @@ this_directory = Path(__file__).parent
 long_description = (this_directory / "README.md").read_text(encoding="utf-8")
 
 setup(
-    name="fits_metadata_extractor",  # Replace with your desired package name
+    name="fits_metadata_extractor",  
     version="0.1.0",
     author="Junaid Ramzan Bhat",
     author_email="junaidramzan3573@gmail.com",
     description="A Python library for processing FITS metadata and searching points/areas in the fits.",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/Bhat-Junaid/fits_extractor.git",  # Github URL
+    url="https://github.com/Bhat-Junaid/fits_extractor.git",  
     packages=find_packages(),
     install_requires=[
         "numpy>=1.19.0",
@@ -27,7 +27,7 @@ setup(
     ],
     classifiers=[
         "Programming Language :: Python :: 3",
-        "License :: OSI Approved :: MIT License",  # Change if you use a different license
+        "License :: OSI Approved :: MIT License",  
         "Operating System :: OS Independent",
     ],
     python_requires='>=3.6',
